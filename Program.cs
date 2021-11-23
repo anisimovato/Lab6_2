@@ -28,7 +28,7 @@ namespace Lab6_2
 
             {
                 for (int i = 0; i < len / 2; ++i)
-                    if ((letters[i] != letters[len - i - 1])) ;
+                    if ((letters[i] != letters[len - i - 1])) 
                 {
                     a = false;
                 }
@@ -49,17 +49,3 @@ namespace Lab6_2
     }
 }
 
-//bool check = true;
-//Console.WriteLine(check ? "Checked" : "Not checked");  // output: Checked
-
-//Console.WriteLine(false ? "Checked" : "Not checked");  // output: Not checked
-//А роза упала на лапу Азора
-
-//for (int i = 0; i < len / 2; ++i)
-//{
-//    if (letters[i] == letters[len - i - 1])
-//        Console.WriteLine("Фраза является палиндромом");
-//    else
-//        Console.WriteLine("Фраза не является палиндромом");
-//}
-//Console.ReadKey();
