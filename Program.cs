@@ -24,16 +24,33 @@ namespace Lab6_2
             Console.WriteLine(rusulString);
             char[] letters = rusulString.ToArray();
             int len = letters.Length;
-            for (int i = 0; i < len/2; ++i)
+            bool a = true;
+            
             {
-                if (letters[i] == letters[len - i - 1])
-                    Console.WriteLine("Фраза является палиндромом");
-                else
-                    Console.WriteLine("Фраза не является палиндромом");
+                for (int i = 0; i < len / 2; ++i)
+                a = (letters[i] == letters[len - i - 1]);
+                Console.WriteLine("Фраза является палиндромом");
+                a = false;
+                Console.WriteLine("Фраза является не палиндромом");
             }
+           
             Console.ReadKey();
         }
 
     }
 }
+
+//bool check = true;
+//Console.WriteLine(check ? "Checked" : "Not checked");  // output: Checked
+
+//Console.WriteLine(false ? "Checked" : "Not checked");  // output: Not checked
 //А роза упала на лапу Азора
+
+//for (int i = 0; i < len / 2; ++i)
+//{
+//    if (letters[i] == letters[len - i - 1])
+//        Console.WriteLine("Фраза является палиндромом");
+//    else
+//        Console.WriteLine("Фраза не является палиндромом");
+//}
+//Console.ReadKey();
