@@ -28,10 +28,10 @@ namespace Lab6_2
 
             {
                 for (int i = 0; i < len / 2; ++i)
-                    if ((letters[i] != letters[len - i - 1])) 
-                {
-                    a = false;
-                }
+                    if ((letters[i] != letters[len - i - 1]))
+                    {
+                        a = false;
+                    }
                 if (a)
                 {
                     Console.WriteLine("Фраза является палиндромом");
@@ -49,3 +49,4 @@ namespace Lab6_2
     }
 }
 
+// А роза упала на лапу Азора
